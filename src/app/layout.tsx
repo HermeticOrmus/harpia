@@ -14,18 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://turpi.ai"),
-  title: "Turpi AI - IA sin misterios",
+  metadataBase: new URL("https://harpia.ai"),
+  title: "HarpIA - IA sin misterios",
   description: "Guía práctica de herramientas de IA para latinos. Aprende a usar Claude, ChatGPT, Midjourney y más. Gratis o casi gratis.",
   openGraph: {
-    title: "Turpi AI - IA sin misterios",
+    title: "HarpIA - IA sin misterios",
     description: "Guía práctica de herramientas de IA para latinos. Aprende a usar Claude, ChatGPT, Midjourney y más.",
     images: [
       {
         url: "/assets/og_image_v2.png",
         width: 1200,
         height: 630,
-        alt: "Turpi AI - IA sin misterios",
+        alt: "HarpIA - IA sin misterios",
       },
     ],
     locale: "es_ES",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Turpi AI - IA sin misterios",
+    title: "HarpIA - IA sin misterios",
     description: "Guía práctica de herramientas de IA para latinos. Aprende a usar Claude, ChatGPT, Midjourney y más.",
     images: ["/assets/og_image_v2.png"],
   },

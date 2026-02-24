@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Header } from '@/components/Header';
 import { useSkillLevel } from '@/contexts/SkillLevelContext';
 import { glossary, GlossaryCategory, GlossaryTerm } from '@/data/glossary';
-import { TurpiMascot } from '@/components/TurpiMascot';
+import { Mascot } from '@/components/Mascot';
 
 const categoryLabels: Record<GlossaryCategory, { label: string; icon: string }> = {
   development: { label: 'Desarrollo', icon: '🛠️' },
@@ -191,7 +191,7 @@ export default function GlosarioPage() {
           </div>
         ) : (
           <div className="text-center py-12">
-            <TurpiMascot className="w-16 h-16 mx-auto mb-4 opacity-50" />
+            <Mascot className="w-16 h-16 mx-auto mb-4 opacity-50" />
             <p className="text-stone-500">
               No encontramos términos con &quot;{searchQuery}&quot;
             </p>
@@ -213,7 +213,7 @@ export default function GlosarioPage() {
         <p className="text-stone-600 text-sm text-center">
           ¿Falta algún término?{' '}
           <a
-            href="https://github.com/turpi-ai/turpi-ai/issues"
+            href="https://github.com/HermeticOrmus/harpia/issues"
             target="_blank"
             rel="noopener noreferrer"
             className={`${colors.text} hover:underline`}

@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
 import { CategoryCard } from '@/components/CategoryCard';
 import { GlossaryCard } from '@/components/GlossaryCard';
-import { TurpiMascot } from '@/components/TurpiMascot';
+import { Mascot } from '@/components/Mascot';
 import { categories, getToolsByCategory } from '@/data/tools';
 
 export default function Home() {
@@ -27,13 +27,13 @@ export default function Home() {
       <footer className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-stone-800 mt-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-3">
-            <TurpiMascot className="w-8 h-8" />
+            <Mascot className="w-8 h-8" />
             <span className="text-stone-500 text-sm">
               Hecho con Claude Code
             </span>
           </div>
           <div className="text-stone-600 text-sm">
-            Diciembre 2025
+            Febrero 2026
           </div>
         </div>
       </footer>

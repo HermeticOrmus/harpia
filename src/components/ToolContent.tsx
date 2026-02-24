@@ -4,7 +4,7 @@ import { Tool, getContentForLevel, getCategoryInfo } from '@/data/tools';
 import { useSkillLevel } from '@/contexts/SkillLevelContext';
 import { pricingColorsWithBorder, pricingLabels } from '@/utils/pricing';
 import { GlossaryText } from './GlossaryText';
-import { TurpiMascot } from './TurpiMascot';
+import { Mascot } from './Mascot';
 import Link from 'next/link';
 
 interface ToolContentProps {
@@ -72,12 +72,12 @@ export function ToolContent({ tool }: ToolContentProps) {
         </div>
       </div>
 
-      {/* Turpi's Take */}
+      {/* HarpIA's Take */}
       {turpiTake && (
         <div className="bg-stone-950 border border-stone-800 rounded-2xl p-6 mb-8">
           <div className="flex items-center gap-3 mb-3">
-            <TurpiMascot className="w-10 h-10" />
-            <span className="font-medium" style={{ color: colors.hex }}>Turpi opina</span>
+            <Mascot className="w-10 h-10" />
+            <span className="font-medium" style={{ color: colors.hex }}>HarpIA opina</span>
           </div>
           <p className="text-stone-300 text-lg italic leading-relaxed">
             &ldquo;<GlossaryText>{turpiTake}</GlossaryText>&rdquo;

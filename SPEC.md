@@ -1,4 +1,6 @@
-# Turpi AI - IA Para Latinos / AI For Latinos
+# HarpIA - IA sin misterios
+
+Named after the Harpy Eagle (Aguila Harpia), Panama's national bird. The "IA" suffix doubles as "Inteligencia Artificial".
 
 ## Vision
 Empoderar a latinos con herramientas de IA para que puedan construir, crear, y competir globalmente desde donde estén.
@@ -44,22 +46,22 @@ The tools to build your future are now available free or almost free. You just n
 - Automation
 - Design
 
-### 2. "Empieza Aquí" / "Start Here"
+### 2. "Empieza Aqui" / "Start Here"
 Interactive guide:
-- ¿Qué quieres hacer? → Recommendations
+- Que quieres hacer? -> Recommendations
 - Beginner path with practical context
 - Real examples of what you can build
 
 ### 3. Success Stories (Phase 2)
 - Latinos using AI to build businesses
 - Before/after economic impact
-- "Si yo pude, tú puedes"
+- "Si yo pude, tu puedes"
 
 ### 4. Resource Paths (Phase 2)
-- "Quiero conseguir trabajo remoto" → Path
-- "Quiero emprender" → Path
-- "Quiero aprender a programar" → Path
-- "Quiero crear contenido" → Path
+- "Quiero conseguir trabajo remoto" -> Path
+- "Quiero emprender" -> Path
+- "Quiero aprender a programar" -> Path
+- "Quiero crear contenido" -> Path
 
 ### 5. Community (Phase 3)
 - WhatsApp group or Discord
@@ -84,16 +86,18 @@ Interactive guide:
 - Regional pricing availability (some tools offer LATAM discounts)
 
 ## Tech Stack
-- Next.js 14 (App Router)
-- Tailwind CSS
-- next-intl for i18n (Spanish/English)
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS 4
 - Vercel for hosting
-- JSON data files
+- TypeScript data files
 
 ## Phase 1 (MVP) - Current
-- Bilingual home page (ES primary)
-- Tool categories with practical tips
-- "Empieza Aquí" interactive guide
+- Spanish-first home page
+- 56 tools across 11 categories with practical tips
+- Skill-level toggle (Principiante/Intermedio/Avanzado)
+- Interactive glossary with 25+ terms
+- "Empieza Aqui" interactive guide
 - Mobile-responsive design
 - Deploy to Vercel
 
@@ -108,8 +112,5 @@ Interactive guide:
 - User accounts
 - Newsletter
 
-## Domain Ideas
-- turpi.ai
-- iaparalatinos.com
-- latinos.ai
-- empoderatech.com
+## Domain
+- harpia.ai (placeholder, TBD)

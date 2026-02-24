@@ -1,14 +1,14 @@
-# Turpi AI - Project Instructions
+# HarpIA - Project Instructions
 
 ## Overview
-Spanish-first AI tools directory empowering Latinos to build, create, and compete globally. Educational platform philosophy: "teach people like they're five years old." 500M+ Spanish speakers deserve world-class tech education in their language.
+Spanish-first AI tools directory empowering Latinos to build, create, and compete globally. Named after the Harpy Eagle (Aguila Harpia), Panama's national bird -- the "IA" suffix doubles as "Inteligencia Artificial". Educational platform philosophy: "teach people like they're five years old." 500M+ Spanish speakers deserve world-class tech education in their language.
 
 ## Current State
 - Next.js 16 + React 19 + Tailwind CSS 4
-- 45+ tools across 11 categories
+- 56 tools across 11 categories
 - Skill-level toggle system (Principiante/Intermedio/Avanzado) implemented
 - Dark theme with amber/orange accent colors
-- TurpiMascot (orange/black bird) as mascot
+- Mascot: Harpy Eagle (pixel art, replacing original turpial bird)
 
 ## Feature Roadmap
 
@@ -78,7 +78,6 @@ Example: "I want to build a landing page"
 - Verify ALL tool information is 100% accurate and current
 - Display prominent "last updated" timestamps per tool
 - Build agent/skill system for automated fact-checking
-- Use **Hermetic-Ormus-Archaeologist** pattern for deep research
 - Cross-reference official sources (pricing pages, docs, changelogs)
 - Flag outdated information automatically
 
@@ -90,12 +89,6 @@ Example: "I want to build a landing page"
 - Integration options
 - Current version/status
 
-**Agent Architecture:**
-- Research agent: Fetches latest info from official sources
-- Verification agent: Cross-checks against current data
-- Update agent: Proposes changes with citations
-- Review workflow: Human approval before publish
-
 ## Key Files
 - `src/contexts/SkillLevelContext.tsx` - Global skill level state + ThemeColors
 - `src/components/SkillToggle.tsx` - Color-coded toggle component
@@ -104,6 +97,7 @@ Example: "I want to build a landing page"
 - `src/components/ToolCard.tsx` - Tool card with theme colors and last-updated
 - `src/components/CategoryCard.tsx` - Category card with theme colors
 - `src/components/CategoryPageContent.tsx` - Theme-aware category page
+- `src/components/Mascot.tsx` - Harpy Eagle mascot image component
 - `src/data/tools.ts` - Tool definitions with SkillContent type
 - `src/data/glossary.ts` - Glossary terms with skill-level definitions
 - `src/components/GlossaryTerm.tsx` - Interactive term tooltip

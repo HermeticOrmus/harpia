@@ -3,7 +3,7 @@
 import { Tool, getContentForLevel } from '@/data/tools';
 import { useSkillLevel } from '@/contexts/SkillLevelContext';
 import { pricingColors, pricingLabels } from '@/utils/pricing';
-import { TurpiMascot } from './TurpiMascot';
+import { Mascot } from './Mascot';
 import Link from 'next/link';
 
 interface ToolCardProps {
@@ -86,8 +86,8 @@ export function ToolCard({ tool }: ToolCardProps) {
         {turpiTake && (
           <div className="pt-4 border-t border-stone-800">
             <div className="flex items-center gap-2 mb-2">
-              <TurpiMascot className="w-6 h-6" />
-              <span className="text-xs font-medium" style={{ color: colors.hex }}>Turpi opina</span>
+              <Mascot className="w-6 h-6" />
+              <span className="text-xs font-medium" style={{ color: colors.hex }}>HarpIA opina</span>
             </div>
             <p className="text-sm text-stone-400 italic leading-relaxed">
               &ldquo;{turpiTake}&rdquo;

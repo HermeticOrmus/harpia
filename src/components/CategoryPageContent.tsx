@@ -17,7 +17,7 @@ interface CategoryPageContentProps {
   recommendation: string;
 }
 
-function TurpiIcon({ className = 'w-6 h-6', color = 'currentColor' }: { className?: string; color?: string }) {
+function MascotIcon({ className = 'w-6 h-6', color = 'currentColor' }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill={color}>
       <ellipse cx="10" cy="15" rx="6" ry="5" />
@@ -94,10 +94,10 @@ export function CategoryPageContent({ category, tools, recommendation }: Categor
               className="w-10 h-10 rounded-full flex items-center justify-center"
               style={{ backgroundColor: `${colors.hex}33` }}
             >
-              <TurpiIcon className="w-6 h-6" color={colors.hex} />
+              <MascotIcon className="w-6 h-6" color={colors.hex} />
             </div>
             <h3 className="text-xl font-bold text-stone-100">
-              La recomendacion de Turpi
+              La recomendacion de HarpIA
             </h3>
           </div>
           <p className="text-stone-400 pl-13">
@@ -122,7 +122,7 @@ export function CategoryPageContent({ category, tools, recommendation }: Categor
               Volver al inicio
             </span>
           </Link>
-          <div className="text-stone-600 text-sm">Diciembre 2025</div>
+          <div className="text-stone-600 text-sm">Febrero 2026</div>
         </div>
       </footer>
     </>
