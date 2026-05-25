@@ -1,5 +1,21 @@
-# HarpIA - IA sin misterios
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="HarpIA - IA sin misterios" width="128" style="image-rendering: pixelated;" />
+</p>
 
+<h1 align="center">HarpIA - IA sin misterios</h1>
+
+<p align="center">
+  <em>HarpIA - Directorio de herramientas de IA en español. IA sin misterios.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/harpia/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/harpia?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/harpia/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/harpia?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/harpia/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/harpia?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
 Spanish-first AI tools directory empowering Latinos to build, create, and compete globally. Named after the Harpy Eagle (Aguila Harpia), Panama's national bird -- the "IA" doubles as "Inteligencia Artificial".
 
 56 tools across 11 categories. Skill-level toggle adapts content for beginners, intermediate, and advanced users. Interactive glossary explains technical terms at your level.
